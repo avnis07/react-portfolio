@@ -56,7 +56,7 @@ export default function Portfolio() {
                 <li>Role-based Access and Workflows</li>
                 <li>Microservices Architecture with Docker and Jenkins</li>
               </ul>
-              <a
+              {/* <a
                 href="https://your-live-project-url.com"
                 target="_blank"
                 className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
@@ -64,12 +64,12 @@ export default function Portfolio() {
                 Live Demo
               </a>
               <a
-                href="https://github.com/yourgithub/project-repo"
+                href="https://github.com/avnis07/react-portfolio"
                 target="_blank"
                 className="ml-4 inline-block mt-4 px-4 py-2 border border-blue-600 text-blue-600 rounded hover:bg-blue-100"
               >
                 View Code
-              </a>
+              </a> */}
             </CardContent>
           </Card>
         </motion.div>
@@ -117,13 +117,13 @@ export default function Portfolio() {
           <Button type="submit">Send Message</Button>
         </form>
         <div className="mt-6 flex gap-6 items-center">
-          <a href="mailto:your.email@example.com" className="flex items-center gap-2">
+          <a href="mailto:avnisaxena252@gmail.com" className="flex items-center gap-2">
             <Mail /> Email
           </a>
-          <a href="https://github.com/yourgithub" target="_blank" className="flex items-center gap-2">
+          <a href="https://github.com/avnis07" target="_blank" className="flex items-center gap-2">
             <Github /> GitHub
           </a>
-          <a href="https://linkedin.com/in/yourlinkedin" target="_blank" className="flex items-center gap-2">
+          <a href="https://www.linkedin.com/in/avni-saxena-7049341b0/" target="_blank" className="flex items-center gap-2">
             <Linkedin /> LinkedIn
           </a>
         </div>
